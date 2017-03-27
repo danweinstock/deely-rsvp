@@ -1,0 +1,28 @@
+body { 
+	padding-top: 70px;
+	background-color: #F5F5F5; }
+h1{
+	font-family: 'Parisienne', cursive;
+	margin: 10px 0 ;
+}
+h2{
+	text-decoration: underline;
+}
+.name-section div{ 
+	font-style: italic;
+}
+.story-section{
+	margin-bottom: 3rem;
+}
+.story-title{
+	font-family: 'Merriweather', serif;
+}
+.story-text{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+}
+.proposal-section, .dating-pic, .first-date-section{
+	margin-right: 10rem;
+}
+
+
