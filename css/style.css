@@ -1,12 +1,24 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/*end of CSS reset*/
+
 body { 
 	padding-top: 70px;
 	background-color: #F5F5F5; }
 h1{
 	font-family: 'Parisienne', cursive;
 	margin: 10px 0 ;
+	font-size: 30px;
 }
 h2{
 	text-decoration: underline;
+}
+h3{
+	font-size:24px;
 }
 .name-section div{ 
 	font-style: italic;
@@ -24,5 +36,14 @@ h2{
 .proposal-section, .dating-pic, .first-date-section{
 	margin-right: 10rem;
 }
-
-
+.full-height{
+	height: 100vh;
+}
+.carousel{
+	margin-bottom: 10rem;
+	margin-top:	5rem;
+	padding-bottom: 2rem;
+}
+.carousel-cell{
+	margin:0 5rem;
+}
