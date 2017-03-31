@@ -1,4 +1,6 @@
-/*
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne');
 body { 
 	padding-top: 70px;
 	background-color: #F5F5F5; }
@@ -40,4 +42,5 @@ h3{
 .carousel-cell{
 	margin:0 5rem;
 }*/
-body{padding-top:70px;background-color:#F5F5F5}h1{font-family:Parisienne,cursive;margin:10px 0;font-size:30px}h2{text-decoration:underline}h3{font-size:24px}.name-section div{font-style:italic}.story-section{margin-bottom:3rem}.story-title{font-family:Merriweather,serif}.story-text{font-family:'PT Sans',sans-serif;font-size:18px}.dating-pic,.first-date-section,.proposal-section{margin-right:10rem}.full-height{height:100vh}.carousel{margin-bottom:10rem;margin-top:5rem;padding-bottom:2rem}.carousel-cell{margin:0 5rem}
+@import "https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne";
+body{padding-top:70px;background-color:#F5F5F5}h1{font-family:'Parisienne',cursive;margin:10px 0;font-size:30px}h2{text-decoration:underline}h3{font-size:24px}.name-section div{font-style:italic}.story-section{margin-bottom:3rem}.story-title{font-family:'Merriweather',serif}.story-text{font-family:'PT Sans',sans-serif;font-size:18px}.proposal-section,.dating-pic,.first-date-section{margin-right:10rem}.full-height{height:100vh}.carousel{margin-bottom:10rem;margin-top:5rem;padding-bottom:2rem}.carousel-cell{margin:0 5rem}
