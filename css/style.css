@@ -1,7 +1,7 @@
 
 
-/*@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne');
-*//*body { 
+@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne');
+/*body { 
 	padding-top: 70px;
 	background-color: #F5F5F5; }
 h1{
@@ -15,6 +15,9 @@ h2{
 h3{
 	font-size:24px;
 }
+h5{
+	font-size:17px;
+}
 .name-section{
 	margin-top: 5rem;
 	margin-bottom: 6rem;
@@ -24,6 +27,9 @@ h3{
 }
 .story-section{
 	margin-bottom: 3rem;
+}
+.story-section img{
+	max-width: 100%;
 }
 .story-title{
 	font-family: 'Merriweather', serif;
@@ -35,34 +41,66 @@ h3{
 .proposal-section, .dating-pic, .first-date-section{
 	margin-right: 10rem;
 }
-.full-height{
-	height: 100vh;
+.first-date-pic{
+	margin-top: 5rem;
 }
 .carousel{
-	margin-bottom: 12	rem;
+	margin-bottom: 19rem;
 	margin-top:	5rem;
 	padding-bottom: 2rem;
 }
 .carousel-cell{
 	margin:0 5rem;
 }
-.rsvp-deadline{
-	font-size: 25px;
-	margin-bottom: 5rem;
-}
 #registry p{
 	font-size: 18px;
 }
 .location{
-
-	margin-bottom: 19rem;
+	padding-top: 9rem;
+	margin-bottom: 9rem;
 }
 .registry-text{
 	margin-top: 5rem;
 	margin-bottom: 22rem;
 }
+.rsvp{
+	padding-bottom: 11rem; 
+	background-color: #2b2a2d;
+}
 footer{
 	font-size: 17px;
+}
+.mobile-image{
+	display: none;
+}
+iframe{
+	width: 100%;
+}
+@media screen and (max-width: 1024px){
+	.proposal-section, .dating-pic, .first-date-section{
+		margin-right: 5rem;
+	}
+	.first-date-pic{
+		margin-top: 8rem;
+	}
+	.rsvp{
+		padding-bottom: 14rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+		.proposal-section, .dating-pic, .first-date-section{
+		margin-right: 0;
+	}
+	h2{
+		font-size: 24px;
+	}
+	.desktop-image{
+		display: none;
+	}
+	.mobile-image{
+		display: block;
+	}
 }*/
 @import "https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne";
-body{padding-top:70px;background-color:#F5F5F5}h1{font-family:Parisienne,cursive;margin:10px 0;font-size:30px}h2{text-decoration:underline}h3{font-size:24px}.name-section{margin-top:5rem;margin-bottom:6rem}.name-section div{font-style:italic}.story-section{margin-bottom:3rem}.story-title{font-family:Merriweather,serif}.story-text{font-family:'PT Sans',sans-serif;font-size:18px}.dating-pic,.first-date-section,.proposal-section{margin-right:10rem}.full-height{height:100vh}.carousel{margin-bottom:19rem;margin-top:5rem;padding-bottom:2rem}.carousel-cell{margin:0 5rem}.rsvp-deadline{font-size:25px;margin-bottom:5rem}#registry p{font-size:18px}.location{margin-bottom:19rem}.registry-text{margin-top:5rem;margin-bottom:22rem}footer{font-size:17px}
+body{padding-top:70px;background-color:#F5F5F5}h1{font-family:Parisienne,cursive;margin:10px 0;font-size:30px}.carousel,.first-date-pic,.name-section{margin-top:5rem}h2{text-decoration:underline}h3{font-size:24px}h5{font-size:17px}#registry p,.story-text{font-size:18px}.name-section{margin-bottom:6rem}.name-section div{font-style:italic}.story-section{margin-bottom:3rem}.story-section img{max-width:100%}.story-title{font-family:Merriweather,serif}.story-text{font-family:'PT Sans',sans-serif}.dating-pic,.first-date-section,.proposal-section{margin-right:10rem}.carousel{margin-bottom:19rem;padding-bottom:2rem}.carousel-cell{margin:0 5rem}.location{padding-top:9rem;margin-bottom:9rem}.registry-text{margin-top:5rem;margin-bottom:22rem}.rsvp{padding-bottom:11rem;background-color:#2b2a2d}footer{font-size:17px}.mobile-image{display:none}iframe{width:100%}@media screen and (max-width:1024px){.dating-pic,.first-date-section,.proposal-section{margin-right:5rem}.first-date-pic{margin-top:8rem}.rsvp{padding-bottom:14rem}}@media screen and (max-width:768px){.dating-pic,.first-date-section,.proposal-section{margin-right:0}h2{font-size:24px}.desktop-image{display:none}.mobile-image{display:block}}
