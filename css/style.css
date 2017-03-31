@@ -1,7 +1,7 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne');
-body { 
+/*@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne');
+*//*body { 
 	padding-top: 70px;
 	background-color: #F5F5F5; }
 h1{
@@ -63,5 +63,6 @@ h3{
 }
 footer{
 	font-size: 17px;
-}
+}*/
 @import "https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne";
+body{padding-top:70px;background-color:#F5F5F5}h1{font-family:Parisienne,cursive;margin:10px 0;font-size:30px}h2{text-decoration:underline}h3{font-size:24px}.name-section{margin-top:5rem;margin-bottom:6rem}.name-section div{font-style:italic}.story-section{margin-bottom:3rem}.story-title{font-family:Merriweather,serif}.story-text{font-family:'PT Sans',sans-serif;font-size:18px}.dating-pic,.first-date-section,.proposal-section{margin-right:10rem}.full-height{height:100vh}.carousel{margin-bottom:12	rem;margin-top:5rem;padding-bottom:2rem}.carousel-cell{margin:0 5rem}.rsvp-deadline{font-size:25px;margin-bottom:5rem}#registry p{font-size:18px}.location{margin-bottom:19rem}.registry-text{margin-top:5rem;margin-bottom:22rem}footer{font-size:17px}
