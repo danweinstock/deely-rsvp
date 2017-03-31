@@ -15,6 +15,10 @@ h2{
 h3{
 	font-size:24px;
 }
+.name-section{
+	margin-top: 5rem;
+	margin-bottom: 6rem;
+}
 .name-section div{ 
 	font-style: italic;
 }
@@ -35,7 +39,7 @@ h3{
 	height: 100vh;
 }
 .carousel{
-	margin-bottom: 10rem;
+	margin-bottom: 12rem;
 	margin-top:	5rem;
 	padding-bottom: 2rem;
 }
@@ -50,9 +54,14 @@ h3{
 	font-size: 18px;
 }
 .location{
+
 	margin-bottom: 19rem;
 }
 .registry-text{
-	margin-bottom: 27rem;
+	margin-top: 5rem;
+	margin-bottom: 22rem;
+}
+footer{
+	font-size: 17px;
 }
 @import "https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne";
