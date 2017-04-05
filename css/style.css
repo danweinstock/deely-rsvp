@@ -25,10 +25,9 @@ h5{
 .name-section div{ 
 	font-style: italic;
 }
-#about-us{
-	padding-top: 1rem;
-}
+
 .story-section{
+	padding-top: 1rem;
 	margin-bottom: 3rem;
 }
 .story-section img{
