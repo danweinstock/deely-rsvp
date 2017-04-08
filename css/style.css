@@ -118,7 +118,11 @@ iframe{
 		margin-top: 10rem;
 	}
 	.proposal-pic{
-		margin-top: 6rem;
+		margin-top: 8.7rem;
+	}
+	.rsvp{
+		padding-top: 10rem;
+		padding-bottom: 20rem;
 	}
 }
 /*@import "https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne";
