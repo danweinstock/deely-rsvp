@@ -104,7 +104,12 @@ iframe{
 		display: block;
 	}
 	.carousel{
-		margin-bottom: 31rem;
+		margin-top: 10rem;
+		margin-bottom: 22rem;
+	}
+	.name-section{
+		margin-top:10rem;
+		margin-bottom: 10rem;
 	}
 }
 /*@import "https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Parisienne";
